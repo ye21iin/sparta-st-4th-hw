@@ -1,4 +1,5 @@
 import "./App.css";
+import Router from "./shared/Router";
 
 function App() {
   /**
@@ -13,8 +14,6 @@ function App() {
     |   |-- Detail.jsx
     |-- App.jsx
    */
-
-  return <></>;
+  return <Router />;
 }
-
 export default App;
